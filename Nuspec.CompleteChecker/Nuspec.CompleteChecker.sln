@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuspec.CompleteChecker", "Nuspec.CompleteChecker\Nuspec.CompleteChecker.csproj", "{F99CF688-176D-412A-9AE7-C2A056840989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3DABE4D-5F7E-4008-A188-B4336072B2EF}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuspec.CompleteChecker.Test", "Nuspec.CompleteChecker.Test\Nuspec.CompleteChecker.Test.csproj", "{40E6E459-5AF8-4A81-87D1-B5C3585B3DD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F99CF688-176D-412A-9AE7-C2A056840989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99CF688-176D-412A-9AE7-C2A056840989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99CF688-176D-412A-9AE7-C2A056840989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99CF688-176D-412A-9AE7-C2A056840989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E6E459-5AF8-4A81-87D1-B5C3585B3DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E6E459-5AF8-4A81-87D1-B5C3585B3DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E6E459-5AF8-4A81-87D1-B5C3585B3DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E6E459-5AF8-4A81-87D1-B5C3585B3DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE32EA21-183D-4DCE-9B6A-37E51A507CB0}
+	EndGlobalSection
+EndGlobal
